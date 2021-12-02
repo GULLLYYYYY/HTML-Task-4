@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <title>Let's Flexbox!</title>
+
+</head>
+<body>
+    
+
+    <!--Header title and menu begin here-->
+    <header>
+    <h1>Flexbox Rundown</h1>
+      <ul>
+        <div class="container-navigation">
+          <button> <a href = "#section-one"> 1.FlexGrow</a></button>
+          <button> <a href = "#section-two">2.CenterItem</a></button>
+          <button> <a href = "#section-three">3.Video</a></button>
+          <button class="push"> <a href = "#section-four">4.Audio</a></button>
+          <button> <a href = "#section-four">5.Media</a></button>
+          <a href="button.html" target = "blank"><button>Would you like<br> to know more?</a></button>
+        </div>
+      </ul>
+    </header>
+    
+    <!-- end of header information here -->
+ 
+ 
+        <main>
+            <div class="section-one" a id = "section-one">
+                <div class="flexgrow-container">
+                    <div class="box1">ONE</div>
+                    <div class="box2">TWO</div>
+                    <div class="box3">THREE</div>
+
+                </div>
+
+            </div>
+
+            <div class="section-two" a id = "section-two">
+                
+
+                    <img class="cat" src="http://placekitten.com/800/600">
+
+                
+            </div>
+
+            <!-- video goes below -->
+
+            <div class="section-three" a id = "section-three">
+                
+               
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vodnI38cNI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SGJFWirQ3ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            </div>
+
+            <div class="section-four" a id = "section-four">
+
+                <figure>
+                    <figcaption class="text">Cor Blimey!</figcaption>
+                    <audio
+                        controls src="audio/corblimeygovernorfnl.m4a">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </figure>
+
+ 
+
+            </div>
+
+            <div class ="section-five" a id = "section-five">
+                
+                <div class="media-container">
+                    <div class="image">
+                        <img src="https://placedog.net/800/600">
+                    </div>
+                    <div class="mediacontent">Here is a placeholder dog. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the    dog changes and a new fun dog shows up. I like this feature as dogs are our best friends. </div>
+
+                </div>
+                
+
+                <div class="media-container">
+                    <div class="image">
+                        <img src="https://placebear.com/800/600">
+                    </div>
+                    <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream. </div>
+                </div>
+                
+                
+
+            </div>
+        
+
+        </main> 
+
+        <footer>
+            <p>This website is brought to you 
+                by the letter F, B, and the number 42.
+                 It was made by Louis Bainbridge.</p>
+            </p>
+        </footer>
+</body>
+</html>
